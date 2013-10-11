@@ -1,0 +1,20 @@
+<extension type="module" version="2.5" method="upgrade" client="administrator">
+    <name>jSchuetze Admin</name>
+    <version>1.1.2</version>
+    <description>MOD_JSCHUETZE_ADMIN_DESC</description>
+	<author>Hanjo Hingsen</author>
+	<authorEmail>webmaster@treu-zu-kaarst.de</authorEmail>
+	<authorUrl>http://www.treu-zu-kaarst.de</authorUrl>
+	<creationDate>16 Juli 2013</creationDate>
+	<copyright>(C) All rights reserved. 2013 Hanjo Hingsen</copyright>
+	<license>GNU GPLv3</license>
+	<files>
+		<filename module="mod_jschuetze_admin">mod_jschuetze_admin.php</filename>
+		<filename>jschuetze_48.png</filename>
+        <filename>index.html</filename>
+	</files>
+    <languages folder="language">
+        <language tag="de-DE">de-DE/de-DE.mod_jschuetze_admin.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_jschuetze_admin.sys.ini</language>
+    </languages>
+</extension>
