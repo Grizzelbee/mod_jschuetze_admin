@@ -4,7 +4,7 @@
 * Detailed copyright and licensing information can be found
 * in the gpl-3.0.txt file which should be included in the distribution.
 *  
-* @version		4.12 2013-07-16 Hanjo Hingsen
+* @version		4.13 2013-07-30 Hanjo Hingsen
 * @copyright	2013 Hanjo Hingsen
 * @license		GPLv3 Open Source
 * @link			http://www.treu-zu-kaarst.de
@@ -65,7 +65,7 @@ div.jschuetzepanel span {
 <?php if(version_compare(JVERSION, '3.0.0', 'ge')) :?>
 <div class="row-fluid">
 	<div class="span12">
-		<a href="<?php echo JRoute::_('index.php?option=com_jschuetze&task=mitglieder'); ?>">
+		<a href="<?php echo JRoute::_('index.php?option=com_jschuetze&view=statistics'); ?>">
 			<i class="icon-list-view"></i>
 			<span><?php echo JText::_('mod_jschuetze_admin_MANAGER'); ?></span>
 		</a>
@@ -74,7 +74,7 @@ div.jschuetzepanel span {
 <?php elseif(version_compare(JVERSION, '2.5.0', 'ge')) :?>
 <div class="icon-wrapper" id="jschuetzeadminicon">
 	<div class="icon">
-		<a href="<?php echo JRoute::_('index.php?option=com_jschuetze&task=dashboard'); ?>">
+		<a href="<?php echo JRoute::_('index.php?option=com_jschuetze&view=statistics'); ?>">
 			<img id="jschuetzeoadmin_img" src="modules/mod_jschuetze_admin/jschuetze_48.png" title="<?php echo JText::_('MOD_JSCHUETZE_ADMIN_MANAGER'); ?>" alt="<?php echo JText::_('MOD_JSCHUETZE_ADMIN_MANAGER'); ?>" />
 			<span><?php echo JText::_('MOD_JSCHUETZE_ADMIN_MANAGER'); ?></span>
 		</a>
@@ -96,7 +96,7 @@ div.jschuetzepanel span {
 <div class="jschuetzepanel">
 	<div style="float:<?php echo ($lang->isRTL()) ? 'right' : 'left'; ?>;">
 		<div class="icon">
-			<a href="<?php echo JRoute::_('index.php?option=com_jschuetze&task=dashboard'); ?>">
+			<a href="<?php echo JRoute::_('index.php?option=com_jschuetze&view=statistics'); ?>">
 				<img id="jschuetzeoadmin_img" src="modules/mod_jschuetze_admin/jschuetze_48.png" title="<?php echo JText::_('MOD_JSCHUETZE_ADMIN_MANAGER'); ?>" alt="<?php echo JText::_('MOD_JSCHUETZE_ADMIN_MANAGER'); ?>" />
 				<span><?php echo JText::_('MOD_JSCHUETZE_ADMIN_MANAGER'); ?></span>
 			</a>
